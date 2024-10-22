@@ -1,0 +1,25 @@
+.container {
+    height: 95vh;
+    /* background-image: url(https://cdn.pixabay.com/photo/2023/06/14/23/12/sunset-8064078_1280.jpg); */
+    /* background-image: linear-gradient(rgba(0, 128, 0, 0.634), rgba(144, 238, 144, 0.493)), url(https://cdn.pixabay.com/photo/2024/02/02/18/41/ai-generated-8548846_1280.jpg); */
+    background-image: radial-gradient(rgba(0, 128, 0, 0.847), rgba(144, 238, 144, 0.748), rgba(128, 0, 128, 0.576)), url(https://cdn.pixabay.com/photo/2024/02/02/18/41/ai-generated-8548846_1280.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background: ; short hand  */
+
+}
+
+
+ #div1 {
+            /* ! block element */
+            display: inline;
+            background-color: pink;
+        }
+
+        #span1 {
+            /* ! inline element */
+            display: block;
+            background-color: #000080;
+        } 

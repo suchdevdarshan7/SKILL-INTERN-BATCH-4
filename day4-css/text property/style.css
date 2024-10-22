@@ -1,0 +1,24 @@
+h1 {
+    /* !Font properties:  */
+    /* font-family: algerian;
+    font-weight: 800;
+    font-style: oblique; */
+    /* font: ;  Short hand property */
+
+
+    /* font: 24px 800 algerian italic; */
+    font: 45px "Fira Sans", sans-serif;
+}
+
+h1 {
+    background-color: green;
+    /* text-align: center; */
+    text-align: right;
+}
+
+p {
+    /* line-height: 1.7;
+    letter-spacing: 1.5px; */
+
+    /* text-indent: 100px; */
+}
