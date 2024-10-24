@@ -1,0 +1,36 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+.header__navigation{
+    box-shadow: 0px 4px 40px 10px rgba(0, 0, 0, 0.082);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+} 
+
+.header__navigation-heading{
+    font-size: 26px;
+}
+
+.header__navigation--list{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+
+.header__navigation--links{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.header__navigation--links:hover{
+    color: dodgerblue;
+}
+.blue{
+    color: dodgerblue;
+}
