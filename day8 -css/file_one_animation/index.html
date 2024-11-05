@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: dodgerblue;
+            --secondary-color: orange;
+            --tertiary-color: tomato;
+            --font-color-light: white;
+        }
+
+        .container {
+            height: 100vh;
+            background-color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            height: 300px;
+            width: 300px;
+            background-color: var(--secondary-color);
+            animation: animate__jello;
+            transition: all 0.9s;
+        }
+
+        .box:active {
+            transform: scale(0.9);
+        }
+
+        /* @media screen and (min-width: 1000px) {
+            .box {
+                background-color: red;
+            }
+        } */
+
+        /* @keyframes Bloom {
+            from {
+                opacity: 0;
+                transform: translateY(100px) rotate(1turn);
+            }
+
+            to {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        } */
+
+        nav {
+            display: flex;
+            align-items: center;
+            height: 80px;
+            justify-content: space-around;
+            background-color: var(--tertiary-color);
+
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: var(--font-color-light);
+            font-size: 17px;
+        }
+
+        @media screen and (max-width: 600px) {
+            button {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            ul {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>Welcome</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Careers</a></li>
+            <button>Click me</button>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+
+</html>

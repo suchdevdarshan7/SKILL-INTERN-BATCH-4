@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: black;
+            color: yellow;
+            border-radius: 12px;
+            transition: all 0.5s;
+        }
+
+        a:hover {
+            background-color: red;
+            color: white;
+        }
+
+        a:active {
+            /* transform: scale(0.9); */
+            /* transform: translateX(-100px); */
+            /* transform: translateY(-100px); */
+            /* transform: translateY(100px); */
+
+            /* transform: rotateX(1turn); */
+            /* transform: rotateY(1turn); */
+            /* transform: rotateZ(1turn) */
+
+            /* transform: rotate(1turn); */
+
+            /* transform: skewX(45deg); */
+            transform: skewY(45deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="#">Click here</a>
+    </div>
+</body>
+
+</html>
