@@ -1,0 +1,80 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+.header{
+    background-image: url('https://html5up.net/uploads/demos/halcyonic/assets/css/images/bg01.jpg');
+}
+
+.header_navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12rem;
+    margin-bottom:1rem;
+    border-bottom: solid #3a3939 0.2rem;
+}
+
+.header_navigation-heading{
+    font-size: 4.2rem;
+    color: white; 
+    font-weight: 300;
+
+}
+
+.header_navigation-list{
+    list-style: none;
+    display: flex;
+    gap:3rem;
+}
+
+.header_navigation-links{
+    font-weight: 100;
+    font-size: 2.3rem;
+    text-decoration: none;
+    color: #999;
+    letter-spacing: 0.1rem;
+}
+
+
+.header_section{
+    height: 30rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+.header_section-desc{
+    font-size:2.9rem;
+}
+
+.header_section-desc span{
+    color: white;
+    display: block;
+    line-height: 1.7;
+    font-weight: 200;
+}
+
+.header_section-button{
+    width: 25rem;
+    height: 5rem;
+    border-radius: 0.7rem;
+    border: none;
+    background-color: #ed391b;
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+
+.header_section-image img{
+    border: 1rem solid white; 
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .box {
+            height: 300px;
+            width: 400px;
+            background-color: red;
+        }
+
+        .box img {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button onclick="ChangeToPreviousImage()">Prev</button>
+        <div class="box">
+            <img src="https://cdn.pixabay.com/photo/2024/10/23/18/54/squirrel-monkeys-9143848_640.jpg" alt="">
+        </div>
+        <button onclick="ChangeToNextImage()">Next</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

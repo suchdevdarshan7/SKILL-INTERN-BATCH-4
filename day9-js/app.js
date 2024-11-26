@@ -31,4 +31,10 @@
 // console.log(11 / 2) //convert to decimal
 
 
-console.log(10 ** 4)
+// console.log(10 ** 4)
+
+let obj = {
+    name: "Darshan",
+}
+
+console.log(obj.age)
